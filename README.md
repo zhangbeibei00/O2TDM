@@ -46,14 +46,7 @@ This project is based on improved-diffusion. For environment setup, please refer
 
 Basic usage:
 ```bash
-python search_model.py \
-    --data_dir /path/to/dataset \
-    --model_path /path/to/pretrained_model \
-    --batch_size 32 \
-    --num_samples 500 \
-    --time_step 10 \
-    --population_num 10 \
-    --max_epochs 2
+python search_model.py --data_dir /path/to/dataset $MODEL_FLAGS $DIFFUSION_FLAGS $TRAIN_FLAGS
 ```
 ## Setting
 setting for CIFAR-10 datasets
@@ -106,7 +99,7 @@ This will generate three pickle files:
 
 ### Using Reference Statistics
 
-When running the search process, specify the paths to the reference statistics files:
+When running the search process, specify the paths to the reference statistics files or set in create_argparser():
 
 ```bash
 python search_model.py \
