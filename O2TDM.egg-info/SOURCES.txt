@@ -1,0 +1,7 @@
+README.md
+setup.py
+O2TDM.egg-info/PKG-INFO
+O2TDM.egg-info/SOURCES.txt
+O2TDM.egg-info/dependency_links.txt
+O2TDM.egg-info/requires.txt
+O2TDM.egg-info/top_level.txt
